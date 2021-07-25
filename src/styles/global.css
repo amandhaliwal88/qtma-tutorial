@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .layout {
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    flex:1;
+    color: #EC5064
+}
+
 body {
     background-color: #FAF9F6;
+}
+
+nav {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+
+nav a {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #EC5064;
+    transition: 0.2s;
 }
