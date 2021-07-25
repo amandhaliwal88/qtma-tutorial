@@ -1,12 +1,14 @@
 import React from "react"
-import Navbar from "../components/navbar"
+import Layout from "../components/Layout"
+import '../styles/global.css'
 
 export default function Home() {
   return (
+    <Layout>
     <div>
       <h1>Hello</h1>
-      <Navbar></Navbar>
       <p></p>
     </div>
+    </Layout>
   )
 }
